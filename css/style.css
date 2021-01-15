@@ -1,0 +1,128 @@
+.redes li{
+	text-decoration: none;
+	display: inline-block;
+	
+	
+}
+
+.redes{
+	top:35px;
+	position: absolute;
+	
+}
+
+
+.logo-redes{
+	background: #f47c48;
+}
+
+
+
+.jumbotron {
+    padding: 2rem 2rem !important;
+}
+
+
+
+
+.nav-item a{
+font-family: 'Mukta', sans-serif;
+color: #000000 !important;
+text-transform: uppercase;
+
+}
+
+h3, .botao, .endereco,{
+	font-family: 'Mukta', sans-serif !important;
+color: #000000 !important;
+text-transform: uppercase;
+}
+
+
+
+.botao{
+	background: #f47c48; color: #fff; font-weight: bolder; font-size: 18px; 
+	}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background: #f47c48; color: #e2e2e2;
+}
+
+.caixa-endereco{
+	position: relative; 
+}
+
+.endereco{
+	background: #d8d8d86b; border: 2px solid  #f47c48; 
+} 
+
+.caption h5, p{
+	color:  #f47c48 !important;
+}
+
+.endereco h5{
+	color:  #000 !important; font-family: 'Mukta', sans-serif !important;
+}
+
+.endereco p{
+	color:  #000 !important; font-family: 'Mukta', sans-serif !important;
+}
+
+
+
+
+body{
+	color:  #000 !important; font-family: 'Mukta', sans-serif !important;
+}
+
+.texto-cinza{
+	color: #404040 !important;
+}
+
+.caption{
+	font-family: 'Mukta', sans-serif;
+	background:#000;
+	color: #fff;
+	 
+}
+
+.carousel-caption{
+	right: 5% !important;
+    bottom: 10px !important;
+    left: 5% !important;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+
+
+@media only screen and (max-device-width: 500px) {
+  .caption h2{
+font-size: 15px;
+
+}
+
+  .caption p{
+font-size: 13px;
+
+}
+
+
+
+.cor-laranja{
+	color: #f47c48;
+}
+
+.mt-2-m{
+padding-top:20px
+}
+
+
+
+
+
+}
