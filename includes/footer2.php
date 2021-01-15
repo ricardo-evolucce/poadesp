@@ -2,7 +2,7 @@
 		<div class="container-fluid logo-redes">
 			<div class="row align-items-center">
 				<div class="col col-md-3 offset-md-1">
-					<img src="img/logo.jpg" class="img-fluid">
+					<a href="index.php"><img src="img/logo.jpg" class="img-fluid"></a>
 				</div>
 
 

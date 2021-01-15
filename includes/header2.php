@@ -2,7 +2,7 @@
 		<div class="container-fluid logo-redes">
 			<div class="row align-items-center ">
 				<div class="col col-md-3 offset-md-1 logo" style="border-top: 5px solid #fff">
-					<img src="../img/logo.jpg" class="img-fluid">
+					<a href="../index.php"><img src="../img/logo.jpg" class="img-fluid"></a>
 				</div>
 				<div class="col col-md-4 offset-md-4 text-center ">
 					<a href="https://api.whatsapp.com/send?phone=5551999113632" class="fa fa-whatsapp" style="font-size:25px;"></a>
