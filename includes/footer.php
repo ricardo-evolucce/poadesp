@@ -8,7 +8,7 @@
 
 
 				<div class="col col-md-4 offset-md-4 text-center ">
-					<a href="#" class="fa fa-whatsapp" style="font-size:25px;"></a>
+					<a href="https://api.whatsapp.com/send?phone=5551999113632" class="fa fa-whatsapp" style="font-size:25px;"></a>
 					<a href="#" class="fa fa-facebook" style="font-size:25px;"></a>
 					<a href="#" class="fa fa-instagram" style="font-size:25px;"></a>
 					

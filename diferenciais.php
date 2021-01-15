@@ -44,7 +44,7 @@
 				<img src="img/diferenciais.jpg" class="img-fluid rounded">
 					
 						</div>
-			<div class="col col-md-6 col-12 text-center bg-light  p-2" >
+			<div class="col col-md-6 col-12 text-center bg-light  p-2">
 				
 			<ul class="list-group list-group-flush">
 	
@@ -66,7 +66,7 @@
 
 
 		</section>
-<?php include('includes/footer.php') ?>
+<?php include('includes/footer2.php') ?>
 
 
 
