@@ -46,7 +46,7 @@
 								<a class="dropdown-item" href="registro-antt.php">Registro ANTT</a>
 								<a class="dropdown-item" href="alteracoes-caracteristicas-originais.php">Alterações de características originais</a>
 								<a class="dropdown-item" href="alteracoes-caracteristicas-originais.php">Alterações de nome, endereço, razão social</a>
-								<a class="dropdown-item" href="impressao-atpv-e.php">Impressão da ATPV-e (Autorização para transferência)</a>
+								<a class="dropdown-item" href="impressao-atpv-e.php">Impressão da ATPV-e</a>
 							
 							
 							</div>
