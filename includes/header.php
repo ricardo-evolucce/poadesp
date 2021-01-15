@@ -44,7 +44,7 @@
 								<a class="dropdown-item" href="servicos/consulta-veiculos-deposito.php">Consulta de veículos em depósito</a>
 								<a class="dropdown-item" href="servicos/liberacao-veiculos-deposito.php">Liberação de veículos em depósito</a>
 								<a class="dropdown-item" href="servicos/registro-antt.php">Registro ANTT</a>
-								<a class="dropdown-item" href="servicos/alteracoes-caracteristicas-originais.php">Alterações de características originais</a>
+								<a class="dropdown-item" href="servicos/alteracao-nome-endereco-razao-social.php">Alterações de nome, endereço, razão social</a>
 								<a class="dropdown-item" href="servicos/impressao-atpv-e.php">Impressão da ATPV-e</a>
 								
 					

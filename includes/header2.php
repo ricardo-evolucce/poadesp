@@ -45,7 +45,7 @@
 								<a class="dropdown-item" href="liberacao-veiculos-deposito.php">Liberação de veículos em depósito</a>
 								<a class="dropdown-item" href="registro-antt.php">Registro ANTT</a>
 								<a class="dropdown-item" href="alteracoes-caracteristicas-originais.php">Alterações de características originais</a>
-								<a class="dropdown-item" href="alteracoes-caracteristicas-originais.php">Alterações de nome, endereço, razão social</a>
+								<a class="dropdown-item" href="alteracao-nome-endereco-razao-social.php">Alterações de nome, endereço, razão social</a>
 								<a class="dropdown-item" href="impressao-atpv-e.php">Impressão da ATPV-e</a>
 							
 							
@@ -64,9 +64,8 @@
 							<a href="../orcamento.php" class="nav-link">Orçamento</a>
 						</li>
 						<li class="nav-item">
-							<a href="" class="nav-link">Contato</a>
+							<a href="../contato.php" class="nav-link">Contato</a>
 						</li>
-
 					</ul>
 				</div>
 			</div>
