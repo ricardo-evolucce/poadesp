@@ -36,19 +36,19 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Contato de '.$_POST['nome'].' - Site PoaDesp';
-    $mail->Body    = '<b>Nome:</b> '.$_POST['email'].'<br>
-    <b>Nome:</b> '.$_POST['nome'].'<br>
-    <b>Email:</b> '.$_POST['email'].'<br>
-    <b>Telefone:</b> '.$_POST['telefone'].'<br>';
+    $mail->Body    = '<b>Nome:</b> '.$_POST['nome'].'<br><br>
+    
+    <b>Email:</b> '.$_POST['email'].'<br><br>
+    <b>Telefone:</b> '.$_POST['telefone'].'<br><br>';
 
     if(!empty($_POST['placa'])){
-        $mail->Body .= '<b>Placa:</b> '.$_POST['placa'].'<br>';
+        $mail->Body .= '<b>Placa:</b> '.$_POST['placa'].'<br><br>';
     }
    if(!empty($_POST['renavam'])){
-        $mail->Body .= '<b>Placa:</b> '.$_POST['placa'].'<br>';
+        $mail->Body .= '<b>Renavam:</b> '.$_POST['renavam'].'<br><br>';
     }
-    $mail->Body .= '<b>Mensagem:</b> '.$_POST['mensagem'].'<br>';
-    
+    $mail->Body .= '<b>Mensagem:</b> '.$_POST['mensagem'].'<br><br>';
+
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     $mail->CharSet = 'UTF-8';
 

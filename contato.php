@@ -83,7 +83,7 @@
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem"></textarea>
 						</div>
 
-					<input type="submit" class="btn botao p-2" value="SOLICITAR ORÇAMENTO">
+					<input type="submit" class="btn botao p-2" value="ENVIAR">
 
 
 
