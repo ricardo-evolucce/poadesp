@@ -39,29 +39,29 @@
 			
 						</div>
 			<div class="col col-md-12 col-12 text-center bg-light  p-2" style="border: 2px solid #f47c48;">
-				<form>
+				<form action="mail.php" method="post">
 					<h5 class="text-left p-2">FAÇA AQUI<br>
 						<strong>SEU ORÇAMENTO</strong></h5>
 
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome" name="nome">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email" name="email">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone" name="telefone">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Placa">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Placa" name="placa">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Renavam">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Renavam" name="renavam">
 						</div>
 						<!--<div class="form-group">
 							<label for="exampleFormControlSelect1">Example select</label>
@@ -90,10 +90,10 @@
 
 
 
-
+			<input type="submit" class="btn botao p-2" value="SOLICITAR ORÇAMENTO">
 
 					</form>
-					<button type="button" class="btn botao p-2">SOLICITAR ORÇAMENTO</button>
+					
 				</div>
 
 
