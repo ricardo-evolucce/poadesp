@@ -33,6 +33,7 @@
 							<div class="dropdown-menu">
 								<a class="dropdown-item" href="servicos/primeiro-emplacamento.php">Primeiro emplacamento</a>
 								<a class="dropdown-item" href="servicos/transferencia-propriedade.php">Transferência de propriedade</a>
+								<a class="dropdown-item" href="servicos/impressao-atpv-e.php">Impressão da ATPV-e</a>
 								<a class="dropdown-item" href="servicos/comunicacao-de-venda.php">Comunicação de venda</a>
 								<a class="dropdown-item" href="servicos/impressao-crv-digital.php">Impressão de CRV digital</a>
 								<a class="dropdown-item" href="servicos/troca-municipio-estado.php">Troca de município e de estado</a>
@@ -46,7 +47,7 @@
 								<a class="dropdown-item" href="servicos/registro-antt.php">Registro ANTT</a>
 								<a class="dropdown-item" href="servicos/alteracoes-caracteristicas-originais.php">Alterações de características originais</a>
 								<a class="dropdown-item" href="servicos/alteracao-nome-endereco-razao-social.php">Alterações de nome, endereço, razão social</a>
-								<a class="dropdown-item" href="servicos/impressao-atpv-e.php">Impressão da ATPV-e</a>
+								
 							
 							
 							</div>
@@ -55,7 +56,7 @@
 							<a href="diferenciais.php" class="nav-link">Diferenciais</a>
 						</li>
 						<li class="nav-item">
-							<a href="" class="nav-link">PCD</a>
+							<a href="" class="nav-link" style="color: #f47c48 !important; font-weight: bolder">PCD</a>
 						</li>
 						<li class="nav-item">
 							<a href="" class="nav-link">Convênios</a>

@@ -37,11 +37,11 @@
 
 			<div class="col-12 col-md-7"><h1 class="display-4">Quem somos</h1> 
 				<p class="lead texto-cinza">
-Com quase vinte anos de experiência, nosso escritório de assessoria técnica de documentos de veículos soluciona a viabilização de documentação em todo país</p>
+Nosso escritório de assessoria técnica de documentos de veículos soluciona a viabilização de documentação em todo país.</p>
 
 <p class="lead texto-cinza">
 
-PoaDesp está localizado em Porto Alegre, RS.
+PoaDesp está localizado na Av. Ipiranga, número 7464, sala 818, na cidade de Porto Alegre - RS.
 
 </p>
 			<a class="btn btn-primary btn-lg botao" href="https://goo.gl/maps/kXN4F3WApntgE6BY6" role="button">Veja como chegar</a>

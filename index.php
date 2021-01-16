@@ -17,6 +17,14 @@
 	<!--social icons-->
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<?php
+
+	require 'includes/PHPMailer-master/src/Exception.php';
+	require 'includes/PHPMailer-master/src/PHPMailer.php';
+	require 'includes/PHPMailer-master/src/SMTP.php';
+
+	?>
 	
 
 </head>
@@ -65,29 +73,29 @@
 				</div>
 			</div>
 			<div class="col col-md-4 col-12 text-center bg-light  p-2" style="border: 2px solid #f47c48;">
-				<form>
+				<form action="mail.php" method="post" id="form">
 					<h5 class="text-left p-2">FAÇA AQUI<br>
 						<strong>SEU ORÇAMENTO</strong></h5>
 
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+							<input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+							<input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone" name="telefone">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Placa">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Placa" name="placa">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Renavam">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Renavam" name="renavam">
 						</div>
 						<!--<div class="form-group">
 							<label for="exampleFormControlSelect1">Example select</label>
@@ -111,15 +119,15 @@
 						</div>-->
 						<div class="form-group">
 							<!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem"></textarea>
 						</div>
 
 
 
 
-
+						<input type="submit" class="btn botao p-2" value="SOLICITAR ORÇAMENTO">
 					</form>
-					<button type="button" class="btn botao p-2">SOLICITAR ORÇAMENTO</button>
+					
 				</div>
 
 
