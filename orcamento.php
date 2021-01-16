@@ -85,7 +85,7 @@
 						</div>-->
 						<div class="form-group">
 							<!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem"></textarea>
 						</div>
 
 
