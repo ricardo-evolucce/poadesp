@@ -41,21 +41,21 @@
 			<div class="col col-md-6" >
 			 
 							
-				<form class="p-2" style="border: 2px solid #f47c48;">
+				<form class="p-2" style="border: 2px solid #f47c48;" action="mail.php" method="post">
 					<h5 class="text-left p-2">TIRE SUAS DÚVIDAS<br>
 						<strong>ENTRE EM CONTATO</strong></h5>
 
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+							<input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome" name="nome">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+							<input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email" name="email">
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone" name="telefone">
 						</div>
 				
 						<!--<div class="form-group">
@@ -80,10 +80,10 @@
 						</div>-->
 						<div class="form-group">
 							<!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem"></textarea>
 						</div>
 
-<button type="button" class="btn botao p-2">ENVIAR</button>
+					<input type="submit" class="btn botao p-2" value="SOLICITAR ORÇAMENTO">
 
 
 

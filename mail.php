@@ -37,13 +37,18 @@ try {
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Contato de '.$_POST['nome'].' - Site PoaDesp';
     $mail->Body    = '<b>Nome:</b> '.$_POST['email'].'<br>
-    <b>Email:</b> '.$_POST['nome'].'<br>
-    <b>Telefone:</b> '.$_POST['telefone'].'<br>
-    <b>Placa:</b> '.$_POST['placa'].'<br>
-    <b>Renavam:</b> '.$_POST['renavam'].'<br>
-    <b>Mensagem:</b> '.$_POST['mensagem'].'<br>
+    <b>Nome:</b> '.$_POST['nome'].'<br>
+    <b>Email:</b> '.$_POST['email'].'<br>
+    <b>Telefone:</b> '.$_POST['telefone'].'<br>';
 
-    ';
+    if(!empty($_POST['placa'])){
+        $mail->Body .= '<b>Placa:</b> '.$_POST['placa'].'<br>';
+    }
+   if(!empty($_POST['renavam'])){
+        $mail->Body .= '<b>Placa:</b> '.$_POST['placa'].'<br>';
+    }
+    $mail->Body .= '<b>Mensagem:</b> '.$_POST['mensagem'].'<br>';
+    
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     $mail->CharSet = 'UTF-8';
 
