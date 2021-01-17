@@ -94,8 +94,8 @@
 				
 			<ul class="list-group list-group-flush">
 	
-  <li class="list-group-item"><span class="fa fa-mobile"></span> (51) 99786-4402</li>
-  <li class="list-group-item"><span class="fa fa-envelope"></span>contato@poadesp.com.br</li>
+  <li class="list-group-item"><span class="fa fa-mobile"></span>(51) 99911-3632</li>
+  <li class="list-group-item"><span class="fa fa-envelope"></span>atendimento@poadesp.com.br</li>
 
 </ul>
 

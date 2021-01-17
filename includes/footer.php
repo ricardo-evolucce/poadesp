@@ -7,7 +7,7 @@
 
 				<div class="col col-md-4">
 					<span class="font-branca">Av. Ipiranga, 7464 - Sala 818 - CEP 91530-000</span>
-					<span class="font-branca">(51) 99911-8616</span>
+					<span class="font-branca">(51) 99911-3632</span>
 				</div>
 
 				<div class="col col-md-3  text-right ">
