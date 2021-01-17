@@ -1,4 +1,4 @@
-<header class="bg-light">
+<header class="bg-light fixed-top">
 		<div class="container-fluid logo-redes">
 			<div class="row align-items-center ">
 				<div class="col col-md-3 offset-md-1 logo" style="border-top: 5px solid #fff">
