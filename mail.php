@@ -26,9 +26,10 @@ try {
     //Recipients
     $mail->setFrom('atendimento@poadesp.com.br', 'Site PoaDesp');
     $mail->addAddress('atendimento@poadesp.com.br', 'Site PoaDesp');     // Add a recipient
+    $mail->addCC('comercial@poadesp.com.br');
     //$mail->addAddress('ellen@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
-    //$mail->addCC('cc@example.com');
+    
     //$mail->addBCC('bcc@example.com');
 
 
