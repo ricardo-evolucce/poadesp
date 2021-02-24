@@ -81,15 +81,15 @@
 
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome">
+							<input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome" required>
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Email">
+							<input type="email" name="email" class="form-control" id="exampleFormControlInput2" placeholder="Email" required>
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
-							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone" name="telefone">
+							<input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Telefone" name="telefone" required>
 						</div>
 						<div class="form-group">
 							<!--<label for="exampleFormControlInput1">Email address</label>-->
@@ -121,7 +121,7 @@
 						</div>-->
 						<div class="form-group">
 							<!--<label for="exampleFormControlTextarea1">Example textarea</label>-->
-							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem"></textarea>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensagem" name="mensagem" required></textarea>
 						</div>
 
 
