@@ -50,13 +50,20 @@
 					<div class="carousel-inner">
 						
 						<div class="carousel-item active">
-							<img src="img/carousel/1.png" class="d-block w-100" alt="...">
+							<img src="img/carousel/1.jpg" class="d-block w-100" alt="...">
 							<!--<div class="carousel-caption caption">
 								
 							</div>-->
 						</div>
 						<div class="carousel-item">
-							<img src="img/carousel/2.png" class="d-block w-100" alt="...">
+							<img src="img/carousel/2.jpg" class="d-block w-100" alt="...">
+							<!--<div class="carousel-caption caption">
+								<h2>Comunicação de venda</h2>
+								<p>Se proteja de multas futuras e eventuais irregularidades causadas pelo novo dono.</p>
+							</div>-->
+						</div>
+						<div class="carousel-item">
+							<img src="img/carousel/3.jpg" class="d-block w-100" alt="...">
 							<!--<div class="carousel-caption caption">
 								<h2>Comunicação de venda</h2>
 								<p>Se proteja de multas futuras e eventuais irregularidades causadas pelo novo dono.</p>
